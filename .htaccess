@@ -1,0 +1,6 @@
+#remove html file extension https://molenzichtkoedijk.nl/homepage.html
+# to https://molenzichtkoedijk.nl/homepage
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
