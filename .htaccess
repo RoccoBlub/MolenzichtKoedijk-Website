@@ -1,5 +1,8 @@
-#remove html file extension https://www.molenzichtkoedijk.nl/homepage.html
-# to https://www.molenzichtkoedijk.nl/
+<IfModule dir_module>
+    #DirectoryIndex index.html
+    DirectoryIndex homepage.html
+</IfModule>
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
