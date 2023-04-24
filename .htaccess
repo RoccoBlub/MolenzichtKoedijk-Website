@@ -1,5 +1,5 @@
-#remove html file extension https://molenzichtkoedijk.nl/homepage.html
-# to https://molenzichtkoedijk.nl/homepage
+#remove html file extension https://www.molenzichtkoedijk.nl/homepage.html
+# to https://www.molenzichtkoedijk.nl/homepage
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
